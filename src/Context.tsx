@@ -9,7 +9,7 @@ export function ThemeProvider(props: { theme: Theme; children: ReactElement }) {
     const themeValue = props.theme;
     return (
         <newTheme.Provider value={themeValue}>
-            {props.children}
+            {props.children};
         </newTheme.Provider>
     );
 }
